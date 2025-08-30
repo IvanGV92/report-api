@@ -10,11 +10,11 @@ app.use(express.json());
 // Configuración de Redis remoto
 const redisClient = createClient({
   
-    username: '',
-    password: '',
+    username: 'ubuntu',
+    password: 'AnFel.024',
     socket: {
-        host: '',
-        port: '',
+        host: '98.83.134.207',
+        port: '6397',
     }
 
 });
