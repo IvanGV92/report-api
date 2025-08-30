@@ -14,7 +14,7 @@ const redisClient = createClient({
     password: 'AnFel.024',
     socket: {
         host: '98.83.134.207',
-        port: '6397',
+        port: '6379',
     }
 
 });
