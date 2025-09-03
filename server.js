@@ -13,7 +13,7 @@ const redisClient = createClient({
     username: 'default',
     password: 'AnFel.024',
     socket: {
-        host: '98.83.134.207',
+        host: 'lb-cache-dbb5f3b76c14e85d.elb.us-east-1.amazonaws.com',
         port: '6379',
     }
 
